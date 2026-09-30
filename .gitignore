@@ -141,3 +141,23 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# macOS
+.DS_Store
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Editor
+.vscode/
+.idea/
+
+# TypeScript
+dist/
+*.tsbuildinfo
+
+# front-end
+dist/
+.astro/
